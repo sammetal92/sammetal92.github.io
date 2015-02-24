@@ -1,9 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Abdul Sami Farrukh's Projects</title>
+<title>Abdul Sami Farrukh's Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/libs/modernizr.min.js"></script>
+<script src="js/libs/jquery-ui.min.js"></script>
+<script src="js/general.js"></script>
+<script type="text/javascript">
+	function gotolink(str)
+	{
+		window.location.href = str;
+	}
+	function gotohash(str)
+	{
+		location.hash = str;
+	}
+</script>
 </head>
 <body>
-	Hello World
+
+<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#coll">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="http://sammetal92.github.io/" class="navbar-brand">Abdul Sami Farrukh's Portfolio</a>
+		</div>
+		<div class="collapse navbar-collapse" id="coll">
+			<ul class="nav navbar-nav">
+				<li><a href="#gameProjects">Game Projects</a></li>
+				<li><a href="#webProjects">Web Projects</a></li>
+				<li><a href="#windowsProjects">Windows Applications</a></li>
+				<li><a href="#graphicsProjects">Graphics Projects</a></li>
+				<li><a href="#misc">Miscellaneous</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="body_wrap">
+	<br /><br /><br /><br /><br />
+	<div class="container">
+		<div class="jumbotron">
+			<center>
+			<h1>Abdul Sami Farrukh's Portfolio</h1>
+			<p>Please use the buttons on the navigation bar to view project categories, or use the buttons below.</p>
+			<button class="btn-info" onclick="gotohash('#gameProjects')">Game Projects</button>
+			<button class="btn-info" onclick="gotohash('#webProjects')">Web Projects</button>
+			<button class="btn-info" onclick="gotohash('#windowsProjects')">Windows Applications</button>
+			<button class="btn-info" onclick="gotohash('#graphicsProjects')">Graphics Projects</button>
+			<button class="btn-info" onclick="gotohash('#misc')">Miscellaneous</button>
+			</center>
+		</div>
+		<div id="gameProjects" class="row">
+		<h2>Game Development Projects</h2>
+		<ul class="list-group col-xs-12">
+			<li class="list-group-item active">PackyTacky</li>
+			<li class="list-group-item active">Hawkman</li>
+			<li class="list-group-item active">TicTacToe with Basic AI</li>
+		</ul>
+		</div>
+	</div>
+</div>
+
 </body>
 </html>
