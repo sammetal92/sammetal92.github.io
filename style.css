@@ -125,8 +125,7 @@ body {
 }
 a:hover,
 a:focus {
-	color: #fff;
-	text-decoration: none;
+	text-decoration: underline;
 }
 a:active{background-color: transparent;}
 

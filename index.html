@@ -3,7 +3,7 @@
 <head>
 <title>Abdul Sami Farrukh's Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -31,7 +31,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="http://sammetal92.github.io/" class="navbar-brand">Abdul Sami Farrukh's Portfolio</a>
+			<a class="navbar-brand" style="color:white">Abdul Sami Farrukh's Portfolio</a>
 		</div>
 		<div class="collapse navbar-collapse" id="coll">
 			<ul class="nav navbar-nav">
@@ -49,7 +49,7 @@
 	<div class="container">
 		<div class="jumbotron">
 			<center>
-			<h1>Abdul Sami Farrukh's Portfolio</h1>
+			<h1 style="color:black">Abdul Sami Farrukh's Portfolio</h1>
 			<p>Please use the buttons on the navigation bar to view project categories, or use the buttons below.</p>
 			<button class="btn-info" onclick="gotohash('#gameProjects')">Game Projects</button>
 			<button class="btn-info" onclick="gotohash('#webProjects')">Web Projects</button>
@@ -58,13 +58,47 @@
 			<button class="btn-info" onclick="gotohash('#misc')">Miscellaneous</button>
 			</center>
 		</div>
+
 		<div id="gameProjects" class="row">
-		<h2>Game Development Projects</h2>
-		<ul class="list-group col-xs-12">
-			<li class="list-group-item active">PackyTacky</li>
-			<li class="list-group-item active">Hawkman</li>
-			<li class="list-group-item active">TicTacToe with Basic AI</li>
-		</ul>
+			<h2>Game Projects</h2>
+			<ul class="list-group col-xs-12">
+				<li class="list-group-item"><a href="https://www.github.com/sammetal92/PackyTacky" target="_blank">PackyTacky</a></li>
+				<li class="list-group-item"><a href="https://www.github.com/sammetal92/StormEagle" target="_blank">Storm Eagle</a></li>
+				<li class="list-group-item"><a href="https://www.github.com/sammetal92/TicTacToe" target="_blank">TicTacToe with Basic AI</a></li>
+			</ul>
+		</div>
+
+		<div id="webProjects" class="row">
+			<h2>Web Projects</h2>
+			<ul class="list-group col-xs-12">
+				<li class="list-group-item"><a href="https://github.com/sammetal92/CommunityBasedWebsite" target="_blank">Community Based Website</a></li>
+				<li class="list-group-item"><a href="https://github.com/sammetal92/SimpleJSChat" target="_blank">Simple Chat Application</a></li>
+			</ul>
+		</div>
+
+		<div id="windowsProjects" class="row">
+			<h2>Windows Projects</h2>
+			<ul class="list-group col-xs-12">
+				<li class="list-group-item"><a href="http://www.mediafire.com/download/a06r0mmvd3lb27n/batchImageConverter_Source.zip" target="_blank">Batch Image Converter</a></li>
+				<li class="list-group-item"><a href="http://www.mediafire.com/download/84pc5ye5j3n9t96/imageEditor_Source.zip" target="_blank">Simple Image Editor</a></li>
+				<li class="list-group-item"><a href="http://www.mediafire.com/download/69ju95u8z9ryo08/Jacobi_Iterative_Method_sol.zip" target="_blank">Jacobi Iterative Method Implementation</a></li>
+			</ul>
+		</div>
+
+		<div id="graphicsProjects" class="row">
+			<h2>Graphics Projects</h2>
+			<ul class="list-group col-xs-12">
+				<li class="list-group-item" style="background-color:red; border:2px solid red; color:white; font-size:18px"><br/><b>Area Under Construction</b><br /><br />
+				</li>
+			</ul>
+		</div>
+
+		<div id="misc" class="row">
+			<h2>Miscellaneous</h2>
+			<ul class="list-group col-xs-12">
+				<li class="list-group-item"><a href="https://www.mediafire.com/?tyvhwici9ym6asi" target="_blank">A* (A-Star) Search Implementation (C# Console Application)</a></li>
+				<li class="list-group-item"><a href="https://soundcloud.com/samstorms" target="_blank">My Music Production Work (Soundcloud Profile)</a></li>
+			</ul>
 		</div>
 	</div>
 </div>
