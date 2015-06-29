@@ -5,12 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="style.css">
+<!-- <link rel="stylesheet" type="text/css" href="fullsize/fullsize.css"> -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/libs/modernizr.min.js"></script>
 <script src="js/libs/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://fancyapps.com/fancybox/source/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="http://fancyapps.com/fancybox/source/jquery.fancybox.css" media="screen" />
 <script src="js/general.js"></script>
 <script type="text/javascript">
+	$(function()
+		{
+			$(".fancybox").fancybox({
+                openEffect  : 'elastic',
+                closeEffect : 'elastic'
+            });
+		});
 	function gotolink(str)
 	{
 		window.location.href = str;
@@ -88,9 +98,15 @@
 
 		<div id="graphicsProjects" class="row">
 			<h2>Graphics Projects</h2>
-			<ul class="list-group col-xs-12">
-				<li class="list-group-item" style="background-color:red; border:2px solid red; color:white; font-size:18px"><br/><b>Area Under Construction</b><br /><br />
-				</li>
+			<ul class="col-xs-12">
+				<table style="width:100%; margin-bottom:20px">
+					<tr>
+						<td><center><a class="fancybox" href="images/models/clock.jpg" rel="lightbox"><img src="images/models/clock_thumb.jpg"></a></center></td>
+						<td><center><a class="fancybox" href="images/models/cup.jpg" rel="lightbox"><img src="images/models/cup_thumb.jpg"></a></center></td>
+						<td><center><a class="fancybox" href="images/models/minion.jpg" rel="lightbox"><img src="images/models/minion_thumb.jpg"></a></center></td>
+						<td><center><a class="fancybox" href="images/models/snowman.jpg" rel="lightbox"><img src="images/models/snowman_thumb.jpg"></a></center></td>
+					</tr>
+				</table>
 			</ul>
 		</div>
 
