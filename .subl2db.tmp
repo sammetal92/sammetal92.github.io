@@ -209,11 +209,10 @@
 										<td><center><a rel="wordpressTTthemeGrp" title="SubCategories" class="fancybox" href="images/wordpressTTtheme/subcats.png" rel="lightbox"><img src="images/wordpressTTtheme/subcats-thumb.png"></a></center></td>
 										<td><center><a rel="wordpressTTthemeGrp" title="No SubCategories" class="fancybox" href="images/wordpressTTtheme/nosubs.png" rel="lightbox"><img src="images/wordpressTTtheme/nosubs-thumb.png"></a></center></td>
 									</tr>
-								</table>
-								<table style="width:100%">
 									<tr style="width:100%;">
 										<td><center><a rel="wordpressTTthemeGrp" title="Post List" class="fancybox" href="images/wordpressTTtheme/postslist.png" rel="lightbox"><img src="images/wordpressTTtheme/postslist-thumb.png"></a></center></td>
 										<td><center><a rel="wordpressTTthemeGrp" title="Post" class="fancybox" href="images/wordpressTTtheme/post.png" rel="lightbox"><img src="images/wordpressTTtheme/post-thumb.png"></a></center></td>
+										<td></td>
 									</tr>
 								</table>
 							</div>
