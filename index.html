@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+	td {padding-bottom: 15px;}
+</style>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/libs/modernizr.min.js"></script>
@@ -44,6 +47,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="coll">
 			<ul class="nav navbar-nav">
+				<li><a href="#workProjects">Work Projects</a></li>
 				<li><a href="#gameProjects">Game Projects</a></li>
 				<li><a href="#webProjects">Web Projects</a></li>
 				<li><a href="#windowsProjects">Windows Applications</a></li>
@@ -60,12 +64,102 @@
 			<center>
 			<h1 style="color:black">Abdul Sami Farrukh's Portfolio</h1>
 			<p>A Game developer, web developer and desktop developer who likes to think of challenges as fresh ideas.</p>
+			<button class="btn-info" onclick="gotohash('#workProjects')">Work Projects</button>
 			<button class="btn-info" onclick="gotohash('#gameProjects')">Game Projects</button>
 			<button class="btn-info" onclick="gotohash('#webProjects')">Web Projects</button>
 			<button class="btn-info" onclick="gotohash('#windowsProjects')">Windows Applications</button>
 			<button class="btn-info" onclick="gotohash('#graphicsProjects')">Graphics Projects</button>
 			<button class="btn-info" onclick="gotohash('#misc')">Miscellaneous</button>
 			</center>
+		</div>
+
+		<div id="workProjects">
+			<h2>Work Projects</h2>
+			<ul class="list-group col-xs-12">
+
+				<li class="list-group-item">
+					<div id="mobilinkParent" class="panel-group">
+						<div class="panel">
+							<font color="black" size="5">Mobilink People</font> (<a href="#" data-toggle="collapse" data-target="#mobilinkDesc" data-parent="#mobilinkParent">Description</a> - <a href="#" data-toggle="collapse" data-target="#mobilink" data-parent="#mobilinkParent">Images</a>)<p />
+							<div class="panel-collapse collapse in" id="mobilinkDesc">
+								<font color="black">
+									Mobilink People is hybrid application for Mobilink employees that provides a central hub to apply for leaves, trainings, jobs, booking a meeting room, travel or claim expenses.
+								</font>
+							</div>
+							<div class="panel-collapse collapse" id="mobilink">
+								<table style="width:100%">
+									<tr style="width:100%">
+										<td><center><a rel="mobilink" title="Login" class="fancybox" href="images/mobilinkpeople/login.png" rel="lightbox"><img src="images/mobilinkpeople/login-thumb.png"></a></center></td>
+										<td><center><a rel="mobilink" title="Dashboard" class="fancybox" href="images/mobilinkpeople/dashboard.png" rel="lightbox"><img src="images/mobilinkpeople/dashboard-thumb.png"></a></center></td>
+										<td><center><a rel="mobilink" title="App Menu" class="fancybox" href="images/mobilinkpeople/apps.png" rel="lightbox"><img src="images/mobilinkpeople/apps-thumb.png"></a></center></td>
+										<td><center><a rel="mobilink" title="Apply For Jobs" class="fancybox" href="images/mobilinkpeople/jobs.png" rel="lightbox"><img src="images/mobilinkpeople/jobs-thumb.png"></a></center></td>
+										<td><center><a rel="mobilink" title="Apply For Leaves" class="fancybox" href="images/mobilinkpeople/leaves.png" rel="lightbox"><img src="images/mobilinkpeople/leaves-thumb.png"></a></center></td>
+									</tr>
+									<tr style="width:100%">
+										<td><center><a rel="mobilink" title="Medical" class="fancybox" href="images/mobilinkpeople/medical.png" rel="lightbox"><img src="images/mobilinkpeople/medical-thumb.png"></a></center></td>
+										<td><center><a rel="mobilink" title="Travel" class="fancybox" href="images/mobilinkpeople/travel.png" rel="lightbox"><img src="images/mobilinkpeople/travel-thumb.png"></a></center></td>
+										<td><center><a rel="mobilink" title="Book Meeting Room" class="fancybox" href="images/mobilinkpeople/meetingroom.png" rel="lightbox"><img src="images/mobilinkpeople/meetingroom-thumb.png"></a></center></td>
+										<td><center><a rel="mobilink" title="Meeting Facilities" class="fancybox" href="images/mobilinkpeople/meetingfacilities.png" rel="lightbox"><img src="images/mobilinkpeople/meetingfacilities-thumb.png"></a></center></td>
+										<td><center><a rel="mobilink" title="PhoneSet Issuance" class="fancybox" href="images/mobilinkpeople/phoneset.png" rel="lightbox"><img src="images/mobilinkpeople/phoneset-thumb.png"></a></center></td>
+									</tr>
+									<tr>
+										<td colspan="5"><center><a rel="mobilink" title="Apply For Trainings" class="fancybox" href="images/mobilinkpeople/training.png" rel="lightbox"><img src="images/mobilinkpeople/training-thumb.png"></a></center></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="list-group-item">
+					<div id="kalAcademyParent" class="panel-group">
+						<div class="panel">
+							<font color="black" size="5">KalAcademy</font> (<a href="#" data-toggle="collapse" data-target="#kalAcademyDesc" data-parent="#kalAcademyParent">Description</a> - <a href="#" data-toggle="collapse" data-target="#kalAcademy" data-parent="#kalAcademyParent">Images</a>)<p />
+							<div class="panel-collapse collapse in" id="kalAcademyDesc">
+								<font color="black">
+									This website was made for KalAcademy by KalSoft Pakistan. I made this website while working for KalSoft. From Designing to development, this is made entirely by me, using Bootstrap and jQuery.
+								</font>
+							</div>
+							<div class="panel-collapse collapse" id="kalAcademy">
+								<table style="width:100%">
+									<tr style="width:100%">
+										<td><center><a rel="kalacademyGrp" title="Home" class="fancybox" href="images/kalacademy/home.PNG" rel="lightbox"><img src="images/kalacademy/home-thumb.png"></a></center></td>
+										<td><center><a rel="kalacademyGrp" title="Company" class="fancybox" href="images/kalacademy/company.PNG" rel="lightbox"><img src="images/kalacademy/company-thumb.png"></a></center></td>
+										<td><center><a rel="kalacademyGrp" title="About" class="fancybox" href="images/kalacademy/about.PNG" rel="lightbox"><img src="images/kalacademy/about-thumb.png"></a></center></td>
+									</tr>
+								</table>
+								<table style="width:100%">
+									<tr style="width:100%;">
+										<td><center><a rel="kalacademyGrp" title="Courses" class="fancybox" href="images/kalacademy/courses.png" rel="lightbox"><img src="images/kalacademy/courses-thumb.png"></a></center></td>
+										<td><center><a rel="kalacademyGrp" title="Contact" class="fancybox" href="images/kalacademy/contact.png" rel="lightbox"><img src="images/kalacademy/contact-thumb.png"></a></center></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="list-group-item">
+					<div id="kalsoftSPParent" class="panel-group">
+						<div class="panel">
+							<font color="black" size="5">KalSoft SharePoint Site</font> (<a href="#" data-toggle="collapse" data-target="#kalsoftSPDesc" data-parent="#kalsoftSPParent">Description</a> - <a href="#" data-toggle="collapse" data-target="#kalsoftSP" data-parent="#kalsoftSPParent">Images</a>)<p />
+							<div class="panel-collapse collapse in" id="kalsoftSPDesc">
+								<font color="black">
+									SharePoint 2010 site for KalSoft. All the web parts were made and branding was done in Visual Studio. No ready-made web parts were used.
+								</font>
+							</div>
+							<div class="panel-collapse collapse" id="kalsoftSP">
+								<table style="width:100%">
+									<tr style="width:100%">
+										<td><center><a rel="kalsoftSP" title="SharePoint Home Page" class="fancybox" href="images/kalsoftSP.png" rel="lightbox"><img src="images/kalsoftSP-thumb.png"></a></center></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</li>
+
+			</ul>
 		</div>
 
 		<div id="gameProjects" class="row">
